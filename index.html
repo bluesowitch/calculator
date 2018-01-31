@@ -10,40 +10,45 @@
 
 <body>
  <div>
-  <div id="result"></div>
+          <div id="result"></div>
+             
+         <div id="main">
+             <div id="first-rows">
+              <button class="del-bg" id="delete">Del</button>
+        <button value="+" class="btn-style opera-bg value align operator">+</button>
+   </div>
 
-  <div>
    <div>
-    <button class="del-bg" id="delete">Del</button>
-    <button value="+" class="btn-style opera-bg value align operator">+</button>
+    <button value="7" class="num-bg num first-child">7</button>
+    <button value="8" class="num-bg num">8</button>
+    <button value="9" class="num-bg num">9</button>
+    <button value="-" class="opera-bg operator">-</button>
    </div>
+
    <div>
-    <button value="1">1</button>
-    <button value="2">2</button>
-    <button value="3">3</button>
-    <button value="/">/</button>
+    <button value="4" class="num-bg num first-child">4</button>
+    <button value="5" class="num-bg num">5</button>
+    <button value="6" class="num-bg num">6</button>
+    <button value="*" class="opera-bg operator">x</button>
    </div>
-   <div>
-    <button value="4">4</button>
-    <button value="5">5</button>
-    <button value="6">6</button>
-    <button value="*">x</button>
+
+   <div class="rows">
+    <button value="1" class="num-bg num first-child">1</button>
+    <button value="2" class="num-bg num">2</button>
+    <button value="3" class="num-bg num">3</button>
+    <button value="/" class="opera-bg operator">/</button>
    </div>
+
    <div>
-    <button value="7">7</button>
-    <button value="8">8</button>
-    <button value="9">9</button>
-    <button value="-">-</button>
-   </div>
-   <div>
-    <button value="0"id="delete">0</button>
-    <button value="."period fall-back">.</button>
-    <button value="=" id="eqn-bg">=</button>
+    <button value="0" class="num-bg zero" id="delete">0</button>
+    <button value="." class="btn-style num-bg period fall-back">.</button>
+    <button value="=" id="eqn-bg" class="eqn align">=</button>
    </div>
 
   </div>
 
  </div>
+
  <script src="js/index.js"></script>
 </body>
 
